@@ -4,6 +4,7 @@
     테이블 스페이스 생성
 */
 
+-- 테이블 스페이스 생성
 CREATE TABLESPACE myts
 datafile '/u01/app/oracle/oradata/XE/myts.dbf'
 SIZE 100M autoextend on NEXT 5M;
